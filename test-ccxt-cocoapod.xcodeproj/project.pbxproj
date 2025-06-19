@@ -6,6 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E903BC122E00358D00DCFCF3 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E903BC112E00358D00DCFCF3 /* CCXTSwift */; };
+		E906B39B2E04DAAD00B31F0E /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E906B39A2E04DAAD00B31F0E /* CCXTSwift */; };
+		E95D26302E078B55004844CC /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E95D262F2E078B55004844CC /* CCXTSwift */; };
+		E95D263F2E07948C004844CC /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E95D263E2E07948C004844CC /* CCXTSwift */; };
+		E97F4B5F2DFBF60000ACC1B8 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E97F4B5E2DFBF60000ACC1B8 /* CCXTSwift */; };
+		E97F4BFE2DFC277500ACC1B8 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E97F4BFD2DFC277500ACC1B8 /* CCXTSwift */; };
+		E97F4C012DFC285500ACC1B8 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E97F4C002DFC285500ACC1B8 /* CCXTSwift */; };
+		E97F4C042DFC296600ACC1B8 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E97F4C032DFC296600ACC1B8 /* CCXTSwift */; };
+		E981B1492E014037003B4F86 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E981B1482E014037003B4F86 /* CCXTSwift */; };
+		E98AE6412E0232E1006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6402E0232E1006AACEA /* CCXTSwift */; };
+		E98AE6442E024F22006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6432E024F22006AACEA /* CCXTSwift */; };
+		E98AE6472E026FBF006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6462E026FBF006AACEA /* CCXTSwift */; };
+		E98AE6562E0270F2006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6552E0270F2006AACEA /* CCXTSwift */; };
+		E98AE6592E0278BA006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6582E0278BA006AACEA /* CCXTSwift */; };
+		E9ACB6CA2DFD14AB00EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6C92DFD14AB00EA44CA /* CCXTSwift */; };
+		E9ACB6CD2DFD4AD500EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6CC2DFD4AD500EA44CA /* CCXTSwift */; };
+		E9ACB6D02DFD596300EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6CF2DFD596300EA44CA /* CCXTSwift */; };
+		E9ACB6D32DFD5DE900EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6D22DFD5DE900EA44CA /* CCXTSwift */; };
+		E9EB93D12DFE4C8200817FB0 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9EB93D02DFE4C8200817FB0 /* CCXTSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E92C3DC52DFBC735007878B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +74,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E906B39B2E04DAAD00B31F0E /* CCXTSwift in Frameworks */,
+				E98AE6412E0232E1006AACEA /* CCXTSwift in Frameworks */,
+				E9ACB6D32DFD5DE900EA44CA /* CCXTSwift in Frameworks */,
+				E9ACB6CD2DFD4AD500EA44CA /* CCXTSwift in Frameworks */,
+				E903BC122E00358D00DCFCF3 /* CCXTSwift in Frameworks */,
+				E97F4C042DFC296600ACC1B8 /* CCXTSwift in Frameworks */,
+				E9EB93D12DFE4C8200817FB0 /* CCXTSwift in Frameworks */,
+				E97F4C012DFC285500ACC1B8 /* CCXTSwift in Frameworks */,
+				E9ACB6D02DFD596300EA44CA /* CCXTSwift in Frameworks */,
+				E98AE6592E0278BA006AACEA /* CCXTSwift in Frameworks */,
+				E9ACB6CA2DFD14AB00EA44CA /* CCXTSwift in Frameworks */,
+				E97F4BFE2DFC277500ACC1B8 /* CCXTSwift in Frameworks */,
+				E95D26302E078B55004844CC /* CCXTSwift in Frameworks */,
+				E98AE6472E026FBF006AACEA /* CCXTSwift in Frameworks */,
+				E95D263F2E07948C004844CC /* CCXTSwift in Frameworks */,
+				E981B1492E014037003B4F86 /* CCXTSwift in Frameworks */,
+				E98AE6562E0270F2006AACEA /* CCXTSwift in Frameworks */,
+				E98AE6442E024F22006AACEA /* CCXTSwift in Frameworks */,
+				E97F4B5F2DFBF60000ACC1B8 /* CCXTSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +153,25 @@
 			);
 			name = "test-ccxt-cocoapod";
 			packageProductDependencies = (
+				E97F4B5E2DFBF60000ACC1B8 /* CCXTSwift */,
+				E97F4BFD2DFC277500ACC1B8 /* CCXTSwift */,
+				E97F4C002DFC285500ACC1B8 /* CCXTSwift */,
+				E97F4C032DFC296600ACC1B8 /* CCXTSwift */,
+				E9ACB6C92DFD14AB00EA44CA /* CCXTSwift */,
+				E9ACB6CC2DFD4AD500EA44CA /* CCXTSwift */,
+				E9ACB6CF2DFD596300EA44CA /* CCXTSwift */,
+				E9ACB6D22DFD5DE900EA44CA /* CCXTSwift */,
+				E9EB93D02DFE4C8200817FB0 /* CCXTSwift */,
+				E903BC112E00358D00DCFCF3 /* CCXTSwift */,
+				E981B1482E014037003B4F86 /* CCXTSwift */,
+				E98AE6402E0232E1006AACEA /* CCXTSwift */,
+				E98AE6432E024F22006AACEA /* CCXTSwift */,
+				E98AE6462E026FBF006AACEA /* CCXTSwift */,
+				E98AE6552E0270F2006AACEA /* CCXTSwift */,
+				E98AE6582E0278BA006AACEA /* CCXTSwift */,
+				E906B39A2E04DAAD00B31F0E /* CCXTSwift */,
+				E95D262F2E078B55004844CC /* CCXTSwift */,
+				E95D263E2E07948C004844CC /* CCXTSwift */,
 			);
 			productName = "test-ccxt-cocoapod";
 			productReference = E92C3DB72DFBC734007878B2 /* test-ccxt-cocoapod.app */;
@@ -195,6 +255,9 @@
 			);
 			mainGroup = E92C3DAE2DFBC734007878B2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E95D263D2E07948C004844CC /* XCLocalSwiftPackageReference "../ccxt/swift-wrapper" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E92C3DB82DFBC734007878B2 /* Products */;
 			projectDirPath = "";
@@ -550,6 +613,92 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E95D263D2E07948C004844CC /* XCLocalSwiftPackageReference "../ccxt/swift-wrapper" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../ccxt/swift-wrapper";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E903BC112E00358D00DCFCF3 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E906B39A2E04DAAD00B31F0E /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E95D262F2E078B55004844CC /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E95D263E2E07948C004844CC /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E97F4B5E2DFBF60000ACC1B8 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E97F4BFD2DFC277500ACC1B8 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E97F4C002DFC285500ACC1B8 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E97F4C032DFC296600ACC1B8 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E981B1482E014037003B4F86 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E98AE6402E0232E1006AACEA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E98AE6432E024F22006AACEA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E98AE6462E026FBF006AACEA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E98AE6552E0270F2006AACEA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E98AE6582E0278BA006AACEA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E9ACB6C92DFD14AB00EA44CA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E9ACB6CC2DFD4AD500EA44CA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E9ACB6CF2DFD596300EA44CA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E9ACB6D22DFD5DE900EA44CA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E9EB93D02DFE4C8200817FB0 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E92C3DAF2DFBC734007878B2 /* Project object */;
 }
