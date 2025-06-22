@@ -32,567 +32,354 @@ struct ContentView: View {
             ScrollView {
             
                 Button("Fetch Markets") {
-                    Task {
-                        await fetchMarkets()
-                    }
+                    fetchMarkets()
                 }
                 Button("Fetch Tickers") {
-                    Task {
-                        await fetchTickers()
-                    }
+                    fetchTickers()
                 }
                 Button("Fetch Balance") {
-                    Task {
-                        await fetchBalance()
-                    }
+                    fetchBalance()
                 }
                 Button("Create Order") {
-                    Task {
-                        await createOrder()
-                    }
+                    createOrder()
                 }
                 Button("Fetch Positions History") {
-                    Task {
-                        await fetchPositionsHistory()
-                    }
+                    fetchPositionsHistory()
                 }
                 Button("addMargin"){
-                    Task {
-                        await addMargin()
-                    }
+                    addMargin()
                 }
                 Button("borrowCrossMargin"){
-                    Task {
-                        await borrowCrossMargin()
-                    }
+                    borrowCrossMargin()
                 }
                 Button("borrowIsolatedMargin"){
-                    Task {
-                        await borrowIsolatedMargin()
-                    }
+                    borrowIsolatedMargin()
                 }
                 Button("borrowMargin"){
-                    Task {
-                        await borrowMargin()
-                    }
+                    borrowMargin()
                 }
                 Button("cancelAllOrders"){
-                    Task {
-                        await cancelAllOrders()
-                    }
+                    cancelAllOrders()
                 }
 //                Button("cancelAllOrdersWs"){
-//                    Task {
-//                        await cancelAllOrdersWs()
-//                    }
+//                        cancelAllOrdersWs()
 //                }
                 Button("cancelOrder"){
-                    Task {
-                        await cancelOrder()
-                    }
+                    cancelOrder()
                 }
 //                Button("cancelOrderWs"){
-//                    Task {
-//                        await cancelOrderWs()
-//                    }
+//                        cancelOrderWs()
 //                }
                 Button("cancelOrders"){
-                    Task {
-                        await cancelOrders()
-                    }
+                    cancelOrders()
                 }
 //                Button("cancelOrdersWs"){
-//                    Task {
-//                        await cancelOrdersWs()
-//                    }
+//                        cancelOrdersWs()
 //                }
                 Button("closeAllPositions"){
-                    Task {
-                        await closeAllPositions()
-                    }
+                    closeAllPositions()
                 }
                 Button("closePosition"){
-                    Task {
-                        await closePosition()
-                    }
+                    closePosition()
                 }
                 Button("createLimitOrder"){
-                    Task {
-                        await createLimitOrder()
-                    }
+                    createLimitOrder()
                 }
                 Button("createMarketBuyOrderWithCost"){
-                    Task {
-                        await createMarketBuyOrderWithCost()
-                    }
+                    createMarketBuyOrderWithCost()
                 }
                 Button("createMarketOrder"){
-                    Task {
-                        await createMarketOrder()
-                    }
+                    createMarketOrder()
                 }
 //                Button("createMarketOrderWs"){
-//                    Task {
-//                        await createMarketOrderWs()
-//                    }
+//                        createMarketOrderWs()
 //                }
                 Button("createOrder"){
-                    Task {
-                        await createOrder()
-                    }
+                    createOrder()
                 }
                 Button("createOrders"){
-                    Task {
-                        await createOrders()
-                    }
+                    createOrders()
                 }
                 Button("createOrderWithTakeProfitAndStopLoss"){
-                    Task {
-                        await createOrderWithTakeProfitAndStopLoss()
-                    }
+                    createOrderWithTakeProfitAndStopLoss()
                 }
                 Button("createPostOnlyOrder"){
-                    Task {
-                        await createPostOnlyOrder()
-                    }
+                    createPostOnlyOrder()
                 }
                 Button("createStopLimitOrder"){
-                    Task {
-                        await createStopLimitOrder()
-                    }
+                    createStopLimitOrder()
                 }
                 Button("createStopLossOrder"){
-                    Task {
-                        await createStopLossOrder()
-                    }
+                    createStopLossOrder()
                 }
                 Button("createStopMarketOrder"){
-                    Task {
-                        await createStopMarketOrder()
-                    }
+                    createStopMarketOrder()
                 }
                 Button("createStopOrder"){
-                    Task {
-                        await createStopOrder()
-                    }
+                    createStopOrder()
                 }
                 Button("createTakeProfitOrder"){
-                    Task {
-                        await createTakeProfitOrder()
-                    }
+                    createTakeProfitOrder()
                 }
                 Button("createTrailingPercentOrder"){
-                    Task {
-                        await createTrailingPercentOrder()
-                    }
+                    createTrailingPercentOrder()
                 }
                 Button("createTriggerOrder"){
-                    Task {
-                        await createTriggerOrder()
-                    }
+                    createTriggerOrder()
                 }
                 Button("editOrder"){
-                    Task {
-                        await editOrder()
-                    }
+                    editOrder()
                 }
                 Button("fetchBalance"){
-                    Task {
-                        await fetchBalance()
-                    }
+                    fetchBalance()
                 }
                 Button("fetchBorrowInterest"){
-                    Task {
-                        await fetchBorrowInterest()
-                    }
+                    fetchBorrowInterest()
                 }
                 Button("fetchCanceledAndClosedOrders"){
-                    Task {
-                        await fetchCanceledAndClosedOrders()
-                    }
+                    fetchCanceledAndClosedOrders()
                 }
                 Button("fetchCanceledOrders"){
-                    Task {
-                        await fetchCanceledOrders()
-                    }
+                    fetchCanceledOrders()
                 }
                 Button("fetchClosedOrders"){
-                    Task {
-                        await fetchClosedOrders()
-                    }
+                    fetchClosedOrders()
                 }
                 Button("fetchConvertCurrencies"){
-                    Task {
-                        await fetchConvertCurrencies()
-                    }
+                    fetchConvertCurrencies()
                 }
                 Button("fetchConvertQuote"){
-                    Task {
-                        await fetchConvertQuote()
-                    }
+                    fetchConvertQuote()
                 }
                 Button("fetchConvertTradeHistory"){
-                    Task {
-                        await fetchConvertTradeHistory()
-                    }
+                    fetchConvertTradeHistory()
                 }
                 Button("fetchCrossBorrowRate"){
-                    Task {
-                        await fetchCrossBorrowRate()
-                    }
+                    fetchCrossBorrowRate()
                 }
                 Button("fetchCurrencies"){
-                    Task {
-                        await fetchCurrencies()
-                    }
+                    fetchCurrencies()
                 }
                 Button("fetchCurrenciesWs"){
-                    Task {
-                        await fetchCurrenciesWs()
-                    }
+                    fetchCurrenciesWs()
                 }
                 Button("fetchDepositAddress"){
-                    Task {
-                        await fetchDepositAddress()
-                    }
+                    fetchDepositAddress()
                 }
                 Button("fetchDeposits"){
-                    Task {
-                        await fetchDeposits()
-                    }
+                    fetchDeposits()
                 }
                 Button("fetchDepositWithdrawFee"){
-                    Task {
-                        await fetchDepositWithdrawFee()
-                    }
+                    fetchDepositWithdrawFee()
                 }
                 Button("fetchDepositWithdrawFees"){
-                    Task {
-                        await fetchDepositWithdrawFees()
-                    }
+                    fetchDepositWithdrawFees()
                 }
                 Button("fetchFundingHistory"){
-                    Task {
-                        await fetchFundingHistory()
-                    }
+                    fetchFundingHistory()
                 }
                 Button("fetchFundingRate"){
-                    Task {
-                        await fetchFundingRate()
-                    }
+                    fetchFundingRate()
                 }
                 Button("fetchFundingRateHistory"){
-                    Task {
-                        await fetchFundingRateHistory()
-                    }
+                    fetchFundingRateHistory()
                 }
                 Button("fetchFundingInterval"){
-                    Task {
-                        await fetchFundingInterval()
-                    }
+                    fetchFundingInterval()
                 }
                 Button("fetchFundingRates"){
-                    Task {
-                        await fetchFundingRates()
-                    }
+                    fetchFundingRates()
                 }
                 Button("fetchIndexOHLCV"){
-                    Task {
-                        await fetchIndexOHLCV()
-                    }
+                    fetchIndexOHLCV()
                 }
                 Button("fetchIsolatedBorrowRate"){
-                    Task {
-                        await fetchIsolatedBorrowRate()
-                    }
+                    fetchIsolatedBorrowRate()
                 }
                 Button("fetchL2OrderBook"){
-                    Task {
-                        await fetchL2OrderBook()
-                    }
+                    fetchL2OrderBook()
                 }
                 Button("fetchLedger"){
-                    Task {
-                        await fetchLedger()
-                    }
+                    fetchLedger()
                 }
                 Button("fetchLeverage"){
-                    Task {
-                        await fetchLeverage()
-                    }
+                    fetchLeverage()
                 }
                 Button("fetchLongShortRatioHistory"){
-                    Task {
-                        await fetchLongShortRatioHistory()
-                    }
+                    fetchLongShortRatioHistory()
                 }
                 Button("fetchMarginMode"){
-                    Task {
-                        await fetchMarginMode()
-                    }
+                    fetchMarginMode()
                 }
                 Button("fetchMarketLeverageTiers"){
-                    Task {
-                        await fetchMarketLeverageTiers()
-                    }
+                    fetchMarketLeverageTiers()
                 }
                 Button("fetchMarkets"){
-                    Task {
-                        await fetchMarkets()
-                    }
+                    fetchMarkets()
                 }
                 Button("fetchMarkOHLCV"){
-                    Task {
-                        await fetchMarkOHLCV()
-                    }
+                    fetchMarkOHLCV()
                 }
                 Button("fetchMyLiquidations"){
-                    Task {
-                        await fetchMyLiquidations()
-                    }
+                    fetchMyLiquidations()
                 }
                 Button("fetchMyTrades"){
-                    Task {
-                        await fetchMyTrades()
-                    }
+                    fetchMyTrades()
                 }
                 Button("fetchOHLCV"){
-                    Task {
-                        await fetchOHLCV()
-                    }
+                    fetchOHLCV()
                 }
                 Button("fetchOpenInterest"){
-                    Task {
-                        await fetchOpenInterest()
-                    }
+                    fetchOpenInterest()
                 }
                 Button("fetchOpenOrders"){
-                    Task {
-                        await fetchOpenOrders()
-                    }
+                    fetchOpenOrders()
                 }
                 Button("fetchOrder"){
-                    Task {
-                        await fetchOrder()
-                    }
+                    fetchOrder()
                 }
                 Button("fetchOrderBook"){
-                    Task {
-                        await fetchOrderBook()
-                    }
+                    fetchOrderBook()
                 }
                 Button("fetchPosition"){
-                    Task {
-                        await fetchPosition()
-                    }
+                    fetchPosition()
                 }
                 Button("fetchPositionHistory"){
-                    Task {
-                        await fetchPositionHistory()
-                    }
+                    fetchPositionHistory()
                 }
                 Button("fetchPositionsHistory"){
-                    Task {
-                        await fetchPositionsHistory()
-                    }
+                    fetchPositionsHistory()
                 }
                 Button("fetchPositions"){
-                    Task {
-                        await fetchPositions()
-                    }
+                    fetchPositions()
                 }
                 Button("fetchTicker"){
-                    Task {
-                        await fetchTicker()
-                    }
+                    fetchTicker()
                 }
                 Button("fetchTickers"){
-                    Task {
-                        await fetchTickers()
-                    }
+                    fetchTickers()
                 }
                 Button("fetchTime"){
-                    Task {
-                        await fetchTime()
-                    }
+                    fetchTime()
                 }
                 Button("fetchTrades"){
-                    Task {
-                        await fetchTrades()
-                    }
+                    fetchTrades()
                 }
                 Button("fetchTradingFee"){
-                    Task {
-                        await fetchTradingFee()
-                    }
+                    fetchTradingFee()
                 }
                 Button("fetchTradingFees"){
-                    Task {
-                        await fetchTradingFees()
-                    }
+                    fetchTradingFees()
                 }
                 Button("fetchTransfers"){
-                    Task {
-                        await fetchTransfers()
-                    }
+                    fetchTransfers()
                 }
                 Button("fetchWithdrawals"){
-                    Task {
-                        await fetchWithdrawals()
-                    }
+                    fetchWithdrawals()
                 }
                 Button("reduceMargin"){
-                    Task {
-                        await reduceMargin()
-                    }
+                    reduceMargin()
                 }
                 Button("repayCrossMargin"){
-                    Task {
-                        await repayCrossMargin()
-                    }
+                    repayCrossMargin()
                 }
                 Button("repayIsolatedMargin"){
-                    Task {
-                        await repayIsolatedMargin()
-                    }
+                    repayIsolatedMargin()
                 }
                 Button("setLeverage"){
-                    Task {
-                        await setLeverage()
-                    }
+                    setLeverage()
                 }
                 Button("setMarginMode"){
-                    Task {
-                        await setMarginMode()
-                    }
+                    setMarginMode()
                 }
                 Button("setPositionMode"){
-                    Task {
-                        await setPositionMode()
-                    }
+                    setPositionMode()
                 }
                 Button("transfer"){
-                    Task {
-                        await transfer()
-                    }
+                    transfer()
                 }
 //                Button("watchBalance"){
-//                    Task {
-//                        await watchBalance()
-//                    }
+//                        watchBalance()
 //                }
 //                Button("watchMyTrades"){
-//                    Task {
-//                        await watchMyTrades()
-//                    }
+//                        watchMyTrades()
 //                }
 //                Button("watchOHLCV"){
-//                    Task {
-//                        await watchOHLCV()
-//                    }
+//                        watchOHLCV()
 //                }
 //                Button("watchOrderBook"){
-//                    Task {
-//                        await watchOrderBook()
-//                    }
+//                        watchOrderBook()
 //                }
 //                Button("watchBidsAsks"){
-//                    Task {
-//                        await watchBidsAsks()
-//                    }
+//                        watchBidsAsks()
 //                }
 //                Button("watchOrderBookForSymbols"){
-//                    Task {
-//                        await watchOrderBookForSymbols()
-//                    }
+//                        watchOrderBookForSymbols()
 //                }
 //                Button("watchOrders"){
-//                    Task {
-//                        await watchOrders()
-//                    }
+//                        watchOrders()
 //                }
 //                Button("watchPositions"){
-//                    Task {
-//                        await watchPositions()
-//                    }
+//                        watchPositions()
 //                }
 //                Button("watchTicker"){
-//                    Task {
-//                        await watchTicker()
-//                    }
+//                        watchTicker()
 //                }
 //                Button("watchTickers"){
-//                    Task {
-//                        await watchTickers()
-//                    }
+//                        watchTickers()
 //                }
 //                Button("watchTrades"){
-//                    Task {
-//                        await watchTrades()
-//                    }
+//                        watchTrades()
 //                }
 //                Button("watchTradesForSymbols"){
-//                    Task {
-//                        await watchTradesForSymbols()
-//                    }
+//                        watchTradesForSymbols()
 //                }
 //                Button("withdraw"){
-//                    Task {
-//                        await withdraw()
-//                    }
+//                        withdraw()
 //                }
 //                Button("createConvertTrade"){
-//                    Task {
-//                        await createConvertTrade()
-//                    }
+//                        createConvertTrade()
 //                }
 //                Button("fetchMarkPrice"){
-//                    Task {
-//                        await fetchMarkPrice()
-//                    }
+//                        fetchMarkPrice()
 //                }
-                Button("testRateLimiter"){
-                    Task {
-                        try await testRateLimiter()
-                    }
-                }
             }.frame(maxHeight: UIScreen.main.bounds.height)
             .padding()
         }
         .padding()
     }
     
-    func fetchMarkets() async {
+    func fetchMarkets() {
         // Call fetchMarkets() → returns JSON string
         do {
-            let markets = try await self.exchange.fetchMarkets();
+            let markets = try self.exchange.fetchMarkets() as! [Any];
             print(markets[0])
         } catch {
             print(error.localizedDescription)
         }
     }
     
-    func fetchTickers() async {
+    func fetchTickers() {
         do {
-            let tickers = try await self.exchange.fetchTickers(symbols: ["XRP/USDT", "BTC/USDT"])
+            let tickers = try self.exchange.fetchTickers(symbols: ["XRP/USDT", "BTC/USDT"])
             print(tickers)
         } catch {
             print(error.localizedDescription)
         }
     }
     
-    func fetchBalance() async {
+    func fetchBalance() {
         do {
-            let balance = try await self.exchange.fetchBalance()
+            let balance = try self.exchange.fetchBalance()
             print(balance)
         } catch {
             print(error.localizedDescription)
         }
     }
     
-    func setLeverage() async {
+    func setLeverage() {
         do {
-            let request = try await self.exchange.setLeverage(
+            let request = try self.exchange.setLeverage(
                 leverage: 10,
                 symbol: "XRP/USDT:USDT",
             )
@@ -602,9 +389,9 @@ struct ContentView: View {
         }
     }
     
-    func createOrder() async {
+    func createOrder() {
         do {
-            let order = try await self.exchange.createOrder(
+            let order = try self.exchange.createOrder(
                 symbol: "XRP/USDT:USDT",
                 type: "limit",
                 side: "buy",
@@ -618,757 +405,757 @@ struct ContentView: View {
         }
     }
 
-    func addMargin() async {
+    func addMargin() {
          do {
-             let response = try await self.exchange.addMargin(symbol: "XRP/USDT:USDT", amount: 1)
+             let response = try self.exchange.addMargin(symbol: "XRP/USDT:USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func borrowCrossMargin() async {
+    func borrowCrossMargin() {
          do {
-             let response = try await self.exchange.borrowCrossMargin(code: "USDT", amount: 1)
+             let response = try self.exchange.borrowCrossMargin(code: "USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func borrowIsolatedMargin() async {
+    func borrowIsolatedMargin() {
          do {
-             let response = try await self.exchange.borrowIsolatedMargin(symbol: "XRP/USDT", code: "USDT", amount: 1)
+             let response = try self.exchange.borrowIsolatedMargin(symbol: "XRP/USDT", code: "USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func borrowMargin() async {
+    func borrowMargin() {
          do {
-             let response = try await self.exchange.borrowMargin(code: "USDT", amount: 1)
+             let response = try self.exchange.borrowMargin(code: "USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func cancelAllOrders() async {
+    func cancelAllOrders() {
          do {
-             let response = try await self.exchange.cancelAllOrders()
+             let response = try self.exchange.cancelAllOrders()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func cancelAllOrdersWs() async {
+    func cancelAllOrdersWs() {
         // do {
-        //     let response = try await self.exchange.cancelAllOrdersWs()
+        //     let response = try self.exchange.cancelAllOrdersWs()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func cancelOrder() async {
+    func cancelOrder() {
          do {
-             let response = try await self.exchange.cancelOrder(id: cancelOrderId)
+             let response = try self.exchange.cancelOrder(id: cancelOrderId)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func cancelOrderWs() async {
+    func cancelOrderWs() {
         // do {
-        //     let response = try await self.exchange.cancelOrderWs()
+        //     let response = try self.exchange.cancelOrderWs()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func cancelOrders() async {
+    func cancelOrders() {
         // TODO
 //         do {
-//             let response = await try await self.exchange.cancelOrders()
+//             let response = try self.exchange.cancelOrders()
 //             print(response)
 //         } catch {
 //             print(error.localizedDescription)
 //         }
     }
-    func cancelOrdersWs() async {
+    func cancelOrdersWs() {
         // do {
-        //     let response = try await self.exchange.cancelOrdersWs()
+        //     let response = try self.exchange.cancelOrdersWs()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func closeAllPositions() async {
+    func closeAllPositions() {
          do {
-             let response = try await self.exchange.closeAllPositions()
+             let response = try self.exchange.closeAllPositions()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func closePosition() async {
+    func closePosition() {
          do {
-             let response = try await self.exchange.closePosition(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.closePosition(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createLimitOrder() async {
+    func createLimitOrder() {
          do {
-             let response = try await self.exchange.createLimitOrder(symbol: "XRP/USDT:USDT", side: "buy", amount: 1, price: xrpPrice)
+             let response = try self.exchange.createLimitOrder(symbol: "XRP/USDT:USDT", side: "buy", amount: 1, price: xrpPrice)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createMarketBuyOrderWithCost() async {
+    func createMarketBuyOrderWithCost() {
          do {
-             let response = try await self.exchange.createMarketBuyOrderWithCost(symbol: "XRP/USDT:USDT", cost: 2)
+             let response = try self.exchange.createMarketBuyOrderWithCost(symbol: "XRP/USDT:USDT", cost: 2)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createMarketOrder() async {
+    func createMarketOrder() {
          do {
-             let response = try await self.exchange.createMarketOrder(symbol: "XRP/USDT:USDT", side: "buy", amount: 1)
+             let response = try self.exchange.createMarketOrder(symbol: "XRP/USDT:USDT", side: "buy", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createMarketOrderWs() async {
+    func createMarketOrderWs() {
         // do {
-        //     let response = try await self.exchange.createMarketOrderWs()
+        //     let response = try self.exchange.createMarketOrderWs()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func createOrders() async {
+    func createOrders() {
         // do {
-        //     let response = try await self.exchange.createOrders()
+        //     let response = try self.exchange.createOrders()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func createOrderWithTakeProfitAndStopLoss() async {
+    func createOrderWithTakeProfitAndStopLoss() {
          do {
-             let response = try await self.exchange.createOrderWithTakeProfitAndStopLoss(symbol: futuresSymbol, type: "limit", side: "buy", amount: 1, price: xrpPrice, takeProfit: xrpPrice * 1.1, stopLoss: xrpPrice * 0.9)
+             let response = try self.exchange.createOrderWithTakeProfitAndStopLoss(symbol: futuresSymbol, type: "limit", side: "buy", amount: 1, price: xrpPrice, takeProfit: xrpPrice * 1.1, stopLoss: xrpPrice * 0.9)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createPostOnlyOrder() async {
+    func createPostOnlyOrder() {
          do {
-             let response = try await self.exchange.createPostOnlyOrder(symbol: self.futuresSymbol, type: "limit", side: "buy", amount: 3, price: xrpPrice * 0.9)
+             let response = try self.exchange.createPostOnlyOrder(symbol: self.futuresSymbol, type: "limit", side: "buy", amount: 3, price: xrpPrice * 0.9)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createStopLimitOrder() async {
+    func createStopLimitOrder() {
          do {
-             let response = try await self.exchange.createStopLimitOrder(symbol: futuresSymbol, side: "buy", amount: 5, price: xrpPrice * 0.85, triggerPrice: xrpPrice * 0.85, params: ["tradeSide": "open"])
+             let response = try self.exchange.createStopLimitOrder(symbol: futuresSymbol, side: "buy", amount: 5, price: xrpPrice * 0.85, triggerPrice: xrpPrice * 0.85, params: ["tradeSide": "open"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createStopLossOrder() async {
+    func createStopLossOrder() {
          do {
-             let response = try await self.exchange.createStopLossOrder(symbol: futuresSymbol, type: "limit", side: "buy", amount: 3)
+             let response = try self.exchange.createStopLossOrder(symbol: futuresSymbol, type: "limit", side: "buy", amount: 3)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createStopMarketOrder() async {
+    func createStopMarketOrder() {
          do {
-             let response = try await self.exchange.createStopMarketOrder(symbol: futuresSymbol, side: "buy", amount: 5, triggerPrice: xrpPrice * 0.85, params: ["tradeSide": "open"])
+             let response = try self.exchange.createStopMarketOrder(symbol: futuresSymbol, side: "buy", amount: 5, triggerPrice: xrpPrice * 0.85, params: ["tradeSide": "open"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createStopOrder() async {
+    func createStopOrder() {
          do {
-             let response = try await self.exchange.createStopOrder(symbol: futuresSymbol, type: "String", side: "buy", amount: 5, price: xrpPrice * 0.85, triggerPrice: xrpPrice * 0.85, params: ["tradeSide": "open"])
+             let response = try self.exchange.createStopOrder(symbol: futuresSymbol, type: "String", side: "buy", amount: 5, price: xrpPrice * 0.85, triggerPrice: xrpPrice * 0.85, params: ["tradeSide": "open"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createTakeProfitOrder() async {
+    func createTakeProfitOrder() {
          do {
-             let response = try await self.exchange.createTakeProfitOrder(symbol: futuresSymbol, type: "buy", side: "buy", amount: 5)
+             let response = try self.exchange.createTakeProfitOrder(symbol: futuresSymbol, type: "buy", side: "buy", amount: 5)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createTrailingPercentOrder() async {
+    func createTrailingPercentOrder() {
          do {
-             let response = try await self.exchange.createTrailingPercentOrder(symbol: futuresSymbol, type: "buy", side: "buy", amount: 5)
+             let response = try self.exchange.createTrailingPercentOrder(symbol: futuresSymbol, type: "buy", side: "buy", amount: 5)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func createTriggerOrder() async {
+    func createTriggerOrder() {
          do {
-             let response = try await self.exchange.createTriggerOrder(symbol: futuresSymbol, type: "limit", side: "buy", amount: 5, price: xrpPrice * 0.85, triggerPrice: 0.85, params: ["tradeSide": "open"])
+             let response = try self.exchange.createTriggerOrder(symbol: futuresSymbol, type: "limit", side: "buy", amount: 5, price: xrpPrice * 0.85, triggerPrice: 0.85, params: ["tradeSide": "open"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func editOrder() async {
+    func editOrder() {
          do {
-             let response = try await self.exchange.editOrder(id: orderId, symbol: futuresSymbol, type: "limit", side: "buy", amount: 2, price: xrpPrice - 0.1)
+             let response = try self.exchange.editOrder(id: orderId, symbol: futuresSymbol, type: "limit", side: "buy", amount: 2, price: xrpPrice - 0.1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchBorrowInterest() async {
+    func fetchBorrowInterest() {
          do {
-             let response = try await self.exchange.fetchBorrowInterest(code: "XRP")
+             let response = try self.exchange.fetchBorrowInterest(code: "XRP")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchCanceledAndClosedOrders() async {
+    func fetchCanceledAndClosedOrders() {
         // do {
-        //     let response = try await self.exchange.fetchCanceledAndClosedOrders()
+        //     let response = try self.exchange.fetchCanceledAndClosedOrders()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func fetchCanceledOrders() async {
+    func fetchCanceledOrders() {
 //         do {
-//             let response = try await self.exchange.fetchCanceledOrders()
+//             let response = try self.exchange.fetchCanceledOrders()
 //             print(response)
 //         } catch {
 //             print(error.localizedDescription)
 //         }
     }
-    func fetchClosedOrders() async {
+    func fetchClosedOrders() {
          do {
-             let response = try await self.exchange.fetchClosedOrders(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchClosedOrders(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchConvertCurrencies() async {
+    func fetchConvertCurrencies() {
          do {
-             let response = try await self.exchange.fetchConvertCurrencies()
+             let response = try self.exchange.fetchConvertCurrencies()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchConvertQuote() async {
+    func fetchConvertQuote() {
          do {
-             let response = try await self.exchange.fetchConvertQuote(fromCode: "USDC", toCode: "USDT")
+             let response = try self.exchange.fetchConvertQuote(fromCode: "USDC", toCode: "USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchConvertTradeHistory() async {
+    func fetchConvertTradeHistory() {
          do {
-             let response = try await self.exchange.fetchConvertTradeHistory(code: "XRP")
+             let response = try self.exchange.fetchConvertTradeHistory(code: "XRP")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchCrossBorrowRate() async {
+    func fetchCrossBorrowRate() {
          do {
-             let response = try await self.exchange.fetchCrossBorrowRate(code: "XRP")
+             let response = try self.exchange.fetchCrossBorrowRate(code: "XRP")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchCurrencies() async {
+    func fetchCurrencies() {
          do {
-             let response = try await self.exchange.fetchCurrencies()
+             let response = try self.exchange.fetchCurrencies()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchCurrenciesWs() async {
+    func fetchCurrenciesWs() {
         // do {
-        //     let response = try await self.exchange.fetchCurrenciesWs()
+        //     let response = try self.exchange.fetchCurrenciesWs()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func fetchDepositAddress() async {
+    func fetchDepositAddress() {
          do {
-             let response = try await self.exchange.fetchDepositAddress(code: "USDT", params: ["network": "BSC"])
+             let response = try self.exchange.fetchDepositAddress(code: "USDT", params: ["network": "BSC"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchDeposits() async {
+    func fetchDeposits() {
          do {
-             let response = try await self.exchange.fetchDeposits()
+             let response = try self.exchange.fetchDeposits()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchDepositWithdrawFee() async {
+    func fetchDepositWithdrawFee() {
          do {
-             let response = try await self.exchange.fetchDepositWithdrawFee(code: "XRP")
+             let response = try self.exchange.fetchDepositWithdrawFee(code: "XRP")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchDepositWithdrawFees() async {
+    func fetchDepositWithdrawFees() {
          do {
-             let response = try await self.exchange.fetchDepositWithdrawFees(codes: ["XRP"])
+             let response = try self.exchange.fetchDepositWithdrawFees(codes: ["XRP"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchFundingHistory() async {
+    func fetchFundingHistory() {
          do {
-             let response = try await self.exchange.fetchFundingHistory(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchFundingHistory(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchFundingRate() async {
+    func fetchFundingRate() {
          do {
-             let response = try await self.exchange.fetchFundingRate(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchFundingRate(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchFundingRateHistory() async {
+    func fetchFundingRateHistory() {
          do {
-             let response = try await self.exchange.fetchFundingRateHistory(symbol: "XRP/USDT:USDT", limit: 1)
+             let response = try self.exchange.fetchFundingRateHistory(symbol: "XRP/USDT:USDT", limit: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchFundingInterval() async {
+    func fetchFundingInterval() {
          do {
-             let response = try await self.exchange.fetchFundingInterval(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchFundingInterval(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchFundingRates() async {
+    func fetchFundingRates() {
          do {
-             let response = try await self.exchange.fetchFundingRates()
+             let response = try self.exchange.fetchFundingRates()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchIndexOHLCV() async {
+    func fetchIndexOHLCV() {
          do {
-             let response = try await self.exchange.fetchIndexOHLCV(symbol: futuresSymbol)
+             let response = try self.exchange.fetchIndexOHLCV(symbol: futuresSymbol)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchIsolatedBorrowRate() async {
+    func fetchIsolatedBorrowRate() {
          do {
-             let response = try await self.exchange.fetchIsolatedBorrowRate(symbol: "XRP/USDT")
+             let response = try self.exchange.fetchIsolatedBorrowRate(symbol: "XRP/USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchL2OrderBook() async {
+    func fetchL2OrderBook() {
          do {
-             let response = try await self.exchange.fetchL2OrderBook(symbol: "XRP/USDT")
+             let response = try self.exchange.fetchL2OrderBook(symbol: "XRP/USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchLedger() async {
+    func fetchLedger() {
          do {
-             let response = try await self.exchange.fetchLedger(code: "USDT")
+             let response = try self.exchange.fetchLedger(code: "USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchLeverage() async {
+    func fetchLeverage() {
          do {
-             let response = try await self.exchange.fetchLeverage(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchLeverage(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchLongShortRatioHistory() async {
+    func fetchLongShortRatioHistory() {
          do {
-             let response = try await self.exchange.fetchLongShortRatioHistory(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchLongShortRatioHistory(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchMarginMode() async {
+    func fetchMarginMode() {
          do {
-             let response = try await self.exchange.fetchMarginMode(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchMarginMode(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchMarketLeverageTiers() async {
+    func fetchMarketLeverageTiers() {
          do {
-             let response = try await self.exchange.fetchMarketLeverageTiers(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchMarketLeverageTiers(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchMarkOHLCV() async {
+    func fetchMarkOHLCV() {
          do {
-             let response = try await self.exchange.fetchMarkOHLCV(symbol: futuresSymbol)
+             let response = try self.exchange.fetchMarkOHLCV(symbol: futuresSymbol)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchMyLiquidations() async {
+    func fetchMyLiquidations() {
          do {
-             let response = try await self.exchange.fetchMyLiquidations()
+             let response = try self.exchange.fetchMyLiquidations()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchMyTrades() async {
+    func fetchMyTrades() {
          do {
-             let response = try await self.exchange.fetchMyTrades(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchMyTrades(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchOHLCV() async {
+    func fetchOHLCV() {
          do {
-             let response = try await self.exchange.fetchOHLCV(symbol: "XRP/USDT", timeframe: "1h", since: 1748736000000, limit: 1)
-             let markResponse = try await self.exchange.fetchOHLCV(symbol: "XRP/USDT", timeframe: "1h", since: 1748736000000, limit: 1, params: ["price": "mark"])
+             let response = try self.exchange.fetchOHLCV(symbol: "XRP/USDT", timeframe: "1h", since: 1748736000000, limit: 1)
+             let markResponse = try self.exchange.fetchOHLCV(symbol: "XRP/USDT", timeframe: "1h", since: 1748736000000, limit: 1, params: ["price": "mark"])
              print(response)
              print(markResponse)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchOpenInterest() async {
+    func fetchOpenInterest() {
          do {
-             let response = try await self.exchange.fetchOpenInterest(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchOpenInterest(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchOpenOrders() async {
+    func fetchOpenOrders() {
          do {
-             let response = try await self.exchange.fetchOpenOrders(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchOpenOrders(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchOrder() async {
+    func fetchOrder() {
          do {
-             let response = try await self.exchange.fetchOrder(id: orderId)
+             let response = try self.exchange.fetchOrder(id: orderId)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchOrderBook() async {
+    func fetchOrderBook() {
          do {
-             let response = try await self.exchange.fetchOrderBook(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchOrderBook(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchPosition() async {
+    func fetchPosition() {
          do {
-             let response = try await self.exchange.fetchPosition(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchPosition(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchPositionHistory() async {
+    func fetchPositionHistory() {
          do {
-             let response = try await self.exchange.fetchPositionHistory(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchPositionHistory(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchPositionsHistory() async {
+    func fetchPositionsHistory() {
          do {
-             let response = try await self.exchange.fetchPositionsHistory(symbols: ["XRP/USDT:USDT"])
+             let response = try self.exchange.fetchPositionsHistory(symbols: ["XRP/USDT:USDT"])
              print(response)
-             _ = try await self.exchange.fetchPositionsHistory()
+             _ = try self.exchange.fetchPositionsHistory()
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchPositions() async {
+    func fetchPositions() {
          do {
-             let response = try await self.exchange.fetchPositions(symbols: ["XRP/USDT:USDT"])
-             print(response)
-         } catch {
-             print(error.localizedDescription)
-         }
-    }
-    func fetchTicker() async {
-         do {
-             let response = try await self.exchange.fetchTicker(symbol: "XRP/USDT")
+             let response = try self.exchange.fetchPositions(symbols: ["XRP/USDT:USDT"])
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchTime() async {
+    func fetchTicker() {
          do {
-             let response = try await self.exchange.fetchTime()
+             let response = try self.exchange.fetchTicker(symbol: "XRP/USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchTrades() async {
+    func fetchTime() {
          do {
-             let response = try await self.exchange.fetchTrades(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchTime()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchTradingFee() async {
+    func fetchTrades() {
          do {
-             let response = try await self.exchange.fetchTradingFee(symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.fetchTrades(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchTradingFees() async {
+    func fetchTradingFee() {
          do {
-             let response = try await self.exchange.fetchTradingFees()
+             let response = try self.exchange.fetchTradingFee(symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchTransfers() async {
+    func fetchTradingFees() {
          do {
-             let response = try await self.exchange.fetchTransfers(code: "USDC")
+             let response = try self.exchange.fetchTradingFees()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func fetchWithdrawals() async {
+    func fetchTransfers() {
          do {
-             let response = try await self.exchange.fetchWithdrawals()
+             let response = try self.exchange.fetchTransfers(code: "USDC")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func reduceMargin() async {
+    func fetchWithdrawals() {
          do {
-             let response = try await self.exchange.reduceMargin(symbol: "XRP/USDT:USDT", amount: 1)
+             let response = try self.exchange.fetchWithdrawals()
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func repayCrossMargin() async {
+    func reduceMargin() {
          do {
-             let response = try await self.exchange.repayCrossMargin(code: "USDT", amount: 1)
+             let response = try self.exchange.reduceMargin(symbol: "XRP/USDT:USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func repayIsolatedMargin() async {
+    func repayCrossMargin() {
          do {
-             let response = try await self.exchange.repayIsolatedMargin(symbol: "XRP/USDT:USDT", code: "USDT", amount: 1)
+             let response = try self.exchange.repayCrossMargin(code: "USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func setMarginMode() async {
+    func repayIsolatedMargin() {
          do {
-             let response = try await self.exchange.setMarginMode(marginMode: "isolated", symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.repayIsolatedMargin(symbol: "XRP/USDT:USDT", code: "USDT", amount: 1)
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func setPositionMode() async {
+    func setMarginMode() {
          do {
-             let response = try await self.exchange.setPositionMode(hedged: true, symbol: "XRP/USDT:USDT")
+             let response = try self.exchange.setMarginMode(marginMode: "isolated", symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func transfer() async {
+    func setPositionMode() {
          do {
-             let response = try await self.exchange.transfer(code: "USDC", amount: 1, fromAccount: "spot", toAccount: "swap")
+             let response = try self.exchange.setPositionMode(hedged: true, symbol: "XRP/USDT:USDT")
              print(response)
          } catch {
              print(error.localizedDescription)
          }
     }
-    func watchBalance() async {
+    func transfer() {
+         do {
+             let response = try self.exchange.transfer(code: "USDC", amount: 1, fromAccount: "spot", toAccount: "swap")
+             print(response)
+         } catch {
+             print(error.localizedDescription)
+         }
+    }
+    func watchBalance() {
         // do {
-        //     let response = try await self.exchange.watchBalance()
+        //     let response = try self.exchange.watchBalance()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchMyTrades() async {
+    func watchMyTrades() {
         // do {
-        //     let response = try await self.exchange.watchMyTrades()
+        //     let response = try self.exchange.watchMyTrades()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchOHLCV() async {
+    func watchOHLCV() {
         // do {
-        //     let response = try await self.exchange.watchOHLCV()
+        //     let response = try self.exchange.watchOHLCV()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchOrderBook() async {
+    func watchOrderBook() {
         // do {
-        //     let response = try await self.exchange.watchOrderBook()
+        //     let response = try self.exchange.watchOrderBook()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchBidsAsks() async {
+    func watchBidsAsks() {
         // do {
-        //     let response = try await self.exchange.watchBidsAsks()
+        //     let response = try self.exchange.watchBidsAsks()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchOrderBookForSymbols() async {
+    func watchOrderBookForSymbols() {
         // do {
-        //     let response = try await self.exchange.watchOrderBookForSymbols()
+        //     let response = try self.exchange.watchOrderBookForSymbols()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchOrders() async {
+    func watchOrders() {
         // do {
-        //     let response = try await self.exchange.watchOrders()
+        //     let response = try self.exchange.watchOrders()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchPositions() async {
+    func watchPositions() {
         // do {
-        //     let response = try await self.exchange.watchPositions()
+        //     let response = try self.exchange.watchPositions()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchTicker() async {
+    func watchTicker() {
         // do {
-        //     let response = try await self.exchange.watchTicker()
+        //     let response = try self.exchange.watchTicker()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchTickers() async {
+    func watchTickers() {
         // do {
-        //     let response = try await self.exchange.watchTickers()
+        //     let response = try self.exchange.watchTickers()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchTrades() async {
+    func watchTrades() {
         // do {
-        //     let response = try await self.exchange.watchTrades()
+        //     let response = try self.exchange.watchTrades()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func watchTradesForSymbols() async {
+    func watchTradesForSymbols() {
         // do {
-        //     let response = try await self.exchange.watchTradesForSymbols()
+        //     let response = try self.exchange.watchTradesForSymbols()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func withdraw() async {
+    func withdraw() {
         // do {
-        //     let response = try await self.exchange.withdraw()
+        //     let response = try self.exchange.withdraw()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func createConvertTrade() async {
+    func createConvertTrade() {
         // do {
-        //     let response = try await self.exchange.createConvertTrade()
+        //     let response = try self.exchange.createConvertTrade()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
         // }
     }
-    func fetchMarkPrice() async {
+    func fetchMarkPrice() {
         // do {
-        //     let response = try await self.exchange.fetchMarkPrice()
+        //     let response = try self.exchange.fetchMarkPrice()
         //     print(response)
         // } catch {
         //     print(error.localizedDescription)
@@ -1388,39 +1175,6 @@ struct ContentView: View {
             }
         } else {
             try? data.write(to: url)
-        }
-    }
-    
-    func testRateLimiter() async throws {
-        print("testRateLimiter")
-        let exchange = Binance(config: [
-            "enableRateLimit": true,
-            "rateLimiterAlgorithm": "rollingWindow",
-            "maxLimiterRequests": 5000
-        ])!
-        _ = try await exchange.loadMarkets()
-
-        for times in [1, 10, 100, 1000] {
-            let startTime = Date().timeIntervalSince1970 * 1000
-
-            await withTaskGroup(of: Void.self) { group in
-                for (i, _) in (0..<times).enumerated() {
-                    group.addTask {
-                        do {
-                            let ticker = try await exchange.fetchTicker(symbol: "BTC/USDT")
-                            let timestamp = ticker["timestamp"] as? Int
-                            print(String(timestamp ?? 0))
-                        } catch {
-                            print("fetchTicker failed at iteration \(i): \(error)")
-                        }
-                    }
-                }
-                await group.waitForAll()
-            }
-
-            let endTime = Date().timeIntervalSince1970 * 1000
-            let duration = endTime - startTime
-            print("Parallel: \(times) requests in \(duration)ms")
         }
     }
 

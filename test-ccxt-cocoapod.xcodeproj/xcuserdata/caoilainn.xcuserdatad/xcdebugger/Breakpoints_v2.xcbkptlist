@@ -95,6 +95,34 @@
                   startingLineNumber = "842"
                   endingLineNumber = "842">
                </Location>
+               <Location
+                  uuid = "0E982D15-EE87-404C-932F-98B5F203BB2A - f4eb6fd03d9ccc8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCXTSwift.CCXTExchange.signIn(params: Swift.Dictionary&lt;Swift.String, Any&gt;) throws -&gt; Any"
+                  moduleName = "test-ccxt-cocoapod.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/caoilainn/Documents/programming/ccxt/swift-wrapper/Sources/CCXTSwift/CCXTExchange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "843"
+                  endingLineNumber = "843">
+               </Location>
+               <Location
+                  uuid = "0E982D15-EE87-404C-932F-98B5F203BB2A - f4eb6fd03d9ccc8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCXTSwift.CCXTExchange.signIn(params: Swift.Dictionary&lt;Swift.String, Any&gt;) throws -&gt; Any"
+                  moduleName = "test-ccxt-cocoapod.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/caoilainn/Documents/programming/ccxt/swift-wrapper/Sources/CCXTSwift/CCXTExchange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "843"
+                  endingLineNumber = "843">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
