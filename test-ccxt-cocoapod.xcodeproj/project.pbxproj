@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E903BC122E00358D00DCFCF3 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E903BC112E00358D00DCFCF3 /* CCXTSwift */; };
+		E90676F02E092FBF000C0717 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E90676EF2E092FBF000C0717 /* CCXTSwift */; };
+		E90676F32E093465000C0717 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E90676F22E093465000C0717 /* CCXTSwift */; };
 		E906B39B2E04DAAD00B31F0E /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E906B39A2E04DAAD00B31F0E /* CCXTSwift */; };
 		E95D26302E078B55004844CC /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E95D262F2E078B55004844CC /* CCXTSwift */; };
 		E95D263F2E07948C004844CC /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E95D263E2E07948C004844CC /* CCXTSwift */; };
@@ -21,6 +23,7 @@
 		E98AE6472E026FBF006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6462E026FBF006AACEA /* CCXTSwift */; };
 		E98AE6562E0270F2006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6552E0270F2006AACEA /* CCXTSwift */; };
 		E98AE6592E0278BA006AACEA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E98AE6582E0278BA006AACEA /* CCXTSwift */; };
+		E99C8A5F2E08C9A6001DC129 /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E99C8A5E2E08C9A6001DC129 /* CCXTSwift */; };
 		E9ACB6CA2DFD14AB00EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6C92DFD14AB00EA44CA /* CCXTSwift */; };
 		E9ACB6CD2DFD4AD500EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6CC2DFD4AD500EA44CA /* CCXTSwift */; };
 		E9ACB6D02DFD596300EA44CA /* CCXTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9ACB6CF2DFD596300EA44CA /* CCXTSwift */; };
@@ -77,6 +80,7 @@
 				E906B39B2E04DAAD00B31F0E /* CCXTSwift in Frameworks */,
 				E98AE6412E0232E1006AACEA /* CCXTSwift in Frameworks */,
 				E9ACB6D32DFD5DE900EA44CA /* CCXTSwift in Frameworks */,
+				E90676F02E092FBF000C0717 /* CCXTSwift in Frameworks */,
 				E9ACB6CD2DFD4AD500EA44CA /* CCXTSwift in Frameworks */,
 				E903BC122E00358D00DCFCF3 /* CCXTSwift in Frameworks */,
 				E97F4C042DFC296600ACC1B8 /* CCXTSwift in Frameworks */,
@@ -86,12 +90,14 @@
 				E98AE6592E0278BA006AACEA /* CCXTSwift in Frameworks */,
 				E9ACB6CA2DFD14AB00EA44CA /* CCXTSwift in Frameworks */,
 				E97F4BFE2DFC277500ACC1B8 /* CCXTSwift in Frameworks */,
+				E99C8A5F2E08C9A6001DC129 /* CCXTSwift in Frameworks */,
 				E95D26302E078B55004844CC /* CCXTSwift in Frameworks */,
 				E98AE6472E026FBF006AACEA /* CCXTSwift in Frameworks */,
 				E95D263F2E07948C004844CC /* CCXTSwift in Frameworks */,
 				E981B1492E014037003B4F86 /* CCXTSwift in Frameworks */,
 				E98AE6562E0270F2006AACEA /* CCXTSwift in Frameworks */,
 				E98AE6442E024F22006AACEA /* CCXTSwift in Frameworks */,
+				E90676F32E093465000C0717 /* CCXTSwift in Frameworks */,
 				E97F4B5F2DFBF60000ACC1B8 /* CCXTSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +178,9 @@
 				E906B39A2E04DAAD00B31F0E /* CCXTSwift */,
 				E95D262F2E078B55004844CC /* CCXTSwift */,
 				E95D263E2E07948C004844CC /* CCXTSwift */,
+				E99C8A5E2E08C9A6001DC129 /* CCXTSwift */,
+				E90676EF2E092FBF000C0717 /* CCXTSwift */,
+				E90676F22E093465000C0717 /* CCXTSwift */,
 			);
 			productName = "test-ccxt-cocoapod";
 			productReference = E92C3DB72DFBC734007878B2 /* test-ccxt-cocoapod.app */;
@@ -256,7 +265,7 @@
 			mainGroup = E92C3DAE2DFBC734007878B2;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E95D263D2E07948C004844CC /* XCLocalSwiftPackageReference "../ccxt/swift-wrapper" */,
+				E90676F12E093465000C0717 /* XCLocalSwiftPackageReference "../ccxt/swift-wrapper" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E92C3DB82DFBC734007878B2 /* Products */;
@@ -615,7 +624,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		E95D263D2E07948C004844CC /* XCLocalSwiftPackageReference "../ccxt/swift-wrapper" */ = {
+		E90676F12E093465000C0717 /* XCLocalSwiftPackageReference "../ccxt/swift-wrapper" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "../ccxt/swift-wrapper";
 		};
@@ -623,6 +632,14 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		E903BC112E00358D00DCFCF3 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E90676EF2E092FBF000C0717 /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E90676F22E093465000C0717 /* CCXTSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CCXTSwift;
 		};
@@ -675,6 +692,10 @@
 			productName = CCXTSwift;
 		};
 		E98AE6582E0278BA006AACEA /* CCXTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CCXTSwift;
+		};
+		E99C8A5E2E08C9A6001DC129 /* CCXTSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CCXTSwift;
 		};

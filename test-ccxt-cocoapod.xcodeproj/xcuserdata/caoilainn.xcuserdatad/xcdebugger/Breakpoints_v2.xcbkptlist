@@ -48,7 +48,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "125"
             endingLineNumber = "125"
-            landmarkName = "fetchCurrencies(params:)"
+            landmarkName = "decode(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -63,9 +63,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "842"
-            endingLineNumber = "842"
-            landmarkName = "signIn(params:)"
-            landmarkType = "7">
+            endingLineNumber = "842">
             <Locations>
                <Location
                   uuid = "0E982D15-EE87-404C-932F-98B5F203BB2A - e866290c9d04022e"
@@ -87,6 +85,20 @@
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 @Sendable () -&gt; () in closure #1 (Swift.CheckedContinuation&lt;Swift.Dictionary&lt;Swift.String, Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Error&gt;) -&gt; () in CCXTSwift.CCXTExchange.fetchOpenInterests(symbols: Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;, params: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "test-ccxt-cocoapod.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/caoilainn/Documents/programming/ccxt/swift-wrapper/Sources/CCXTSwift/CCXTExchange.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "842"
+                  endingLineNumber = "842">
+               </Location>
+               <Location
+                  uuid = "0E982D15-EE87-404C-932F-98B5F203BB2A - 6ab472cc44dbce10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in closure #1 (Swift.CheckedContinuation&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Error&gt;) -&gt; () in CCXTSwift.CCXTExchange.fetchMarginAdjustmentHistory(symbol: Swift.Optional&lt;Swift.String&gt;, type: Swift.Optional&lt;Swift.String&gt;, since: Swift.Optional&lt;Swift.Double&gt;, limit: Swift.Optional&lt;Swift.Double&gt;, params: Swift.Dictionary&lt;Swift.String, Any&gt;) async throws -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
                   moduleName = "test-ccxt-cocoapod.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/caoilainn/Documents/programming/ccxt/swift-wrapper/Sources/CCXTSwift/CCXTExchange.swift"
@@ -141,9 +153,21 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1198"
-            endingLineNumber = "1198"
-            landmarkName = "fetchLedgerEntry(id:code:params:)"
-            landmarkType = "7">
+            endingLineNumber = "1198">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D240FC30-F26F-4CA1-9AB2-A645DC39B243"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ccxt/swift-wrapper/Sources/CCXTSwift/CCXTExchange.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1759"
+            endingLineNumber = "1759">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

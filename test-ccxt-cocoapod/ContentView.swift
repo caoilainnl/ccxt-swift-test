@@ -11,8 +11,8 @@ import CCXTSwift
 struct ContentView: View {
     @State private var marketsText: String = "Loading..."
     private var configJson = [
-        "apiKey": "your api key",
-        "secret": "your secret",
+        "apiKey": "your_apikey",
+        "secret": "your_secret",
         "password": "passphrase"
     ]
 
@@ -1408,8 +1408,8 @@ struct ContentView: View {
                     group.addTask {
                         do {
                             let ticker = try await exchange.fetchTicker(symbol: "BTC/USDT")
-                            let timestamp = ticker["timestamp"] as? Int
-                            print(String(timestamp ?? 0))
+//                            let timestamp = ticker["timestamp"] as? Int
+//                            print(String(timestamp ?? 0))
                         } catch {
                             print("fetchTicker failed at iteration \(i): \(error)")
                         }
